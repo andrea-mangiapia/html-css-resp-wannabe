@@ -127,3 +127,34 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+
+ /* Desktop first */
+ @media screen and (max-width: 1140px) {
+    .container {
+        width: 100%;
+    }  
+}
+/* Tablet (in questo caso questo non era necessario*/
+ @media screen and (max-width: 768px) {
+     .container {
+         width: 100%;
+     }  
+}
+/* Mobile */
+ @media screen and (max-width: 480px) {
+    .row {
+        flex-direction: column;
+    }
+    .lessons .col, .steps .col, .why-us .col-left, .why-us .col-right {
+        width: 100%;
+    }
+    section.why-us {
+        background-color: black;
+        padding: 3rem 0;
+        margin-bottom: 0;
+    }
+    section.steps.text-center {      
+        margin-bottom: 0;
+    }
+}
+
