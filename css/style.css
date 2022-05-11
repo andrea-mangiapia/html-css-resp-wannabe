@@ -134,7 +134,7 @@ img {
         width: 100%;
     }  
 }
-/* Tablet (in questo caso questo non era necessario*/
+/* Tablet (in questo caso questo non era necessario)*/
  @media screen and (max-width: 768px) {
      .container {
          width: 100%;
